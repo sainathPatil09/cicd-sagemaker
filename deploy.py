@@ -4,7 +4,7 @@ import sagemaker
 from sagemaker.sklearn.model import SKLearnModel
 from sagemaker import Session
 
-s3_model_path = "s3://models-sagemaker-iris/model/model.pkl"  # Replace with your S3 path
+s3_model_path = "s3://models-sagemaker-iris/model/model.tar.gz"  # Replace with your S3 path
 role = "arn:aws:iam::396608790362:role/service-role/AmazonSageMaker-ExecutionRole-20250621T181246"  # Replace this
 
 sagemaker_session = Session()
