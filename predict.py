@@ -1,7 +1,7 @@
 import boto3
 
 # Set your endpoint name
-endpoint_name = "sagemaker-scikit-learn-2025-06-28-17-40-48-803"
+endpoint_name = "sagemaker-scikit-learn-2025-07-02-10-43-05-651"
 region = "ap-south-1"
 
 # Input as plain CSV string
